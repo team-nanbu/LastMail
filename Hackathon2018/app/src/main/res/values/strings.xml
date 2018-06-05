@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LastMail</string>
+
+    <!-- LoginActivity -->
+    <string name="header_sender_name">あなたの名前</string>
+    <string name="placeholder_sender_name">hoge</string>
+    <string name="header_sender_email">あなたのメールアドレス</string>
+    <string name="placeholder_sender_email">hoge</string>
+    <string name="button_photo">遺影写真を撮影</string>
+    <string name="button_register">登録</string>
+    <string name="demo_sender_name">demouser</string>
+    <string name="demo_sender_email">omaehamoushindeiru@cloud3rs.io</string>
+
+    <!-- ListActivity -->
+
+    <!-- FormActivity -->
+    <string name="title_activity_form">遺言を作成</string>
+    <string name="header_receiver">受信者</string>
+    <string name="placeholder_receiver">相手のメールアドレスを入力</string>
+    <string name="header_message">遺言</string>
+    <string name="placeholder_message">送りたいメッセージを入力</string>
+    <string name="button_movie">動画</string>
+    <string name="movie_saved">撮影済みです</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
