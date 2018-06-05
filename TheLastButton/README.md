@@ -1,5 +1,6 @@
 # TheLastButton
 ESPr® Developer 32(ESP8266)のボタンです。  
+LEDは、AdafruitのNeoPixel互換です。  
 ケースは、ダイソーです。
 
 # Usage
@@ -14,6 +15,6 @@ IFTTTでも通知出来るようになっていますが、
 ・makerEvent/makerKey  
 は、自分の環境に合わせて変更してください。
 
-
+ホールセンサに磁石を近づけてからボタンを押すと、点灯LEDが変化します。
 
 
