@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            .table_title {
+                background-color: #333333;
+                color: white;
+
+            }
+
+            .yeah {
+                -webkit-filter: grayscale(1);
+	            filter: gray;
+	            filter: grayscale(1);
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <table border="1" width="640px" cellspacing="0" cellpadding="5" bordercolor="#333333"　align="center">
+
+            <!-- 遺影 -->
+            <tr>
+                <tr class="table_title">
+                    <th>_senderNameさん</th>
+                </tr>
+                <td>
+                    <img class="yeah" src="_yeahURL" alt="遺影画像" width="640" height="480" >
+                </td>
+            </tr>
+
+            <!-- お亡くなりになった日時と場所 -->
+            <tr class="table_title">
+                <th>お亡くなりになった日時と場所</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>_lastDate</p>
+                    <p>〒030-0862 青森県青森市古川１丁目８ 付近</p>
+                </td>
+            </tr>
+
+            <!-- メッセージ -->
+            <tr class="table_title">
+                <th>_senderNameさんからのメッセージ</th>
+            </tr>
+            <tr>
+                <td>_message</td>
+            </tr>
+
+            <!-- 遺言動画 -->
+            <tr>
+                <tr class="table_title">
+                    <th>遺言動画</th>
+                </tr>
+                <td>
+                    <video width="640" height="480" controls autoplay  preload="metadata">
+                        <source src="_movieURL">
+                        <p>_movieURL</p>
+                    </video>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
